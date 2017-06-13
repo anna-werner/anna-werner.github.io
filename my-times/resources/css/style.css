@@ -1,0 +1,164 @@
+
+/*HEADER*/
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+header span {
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+nav {
+  padding-right: 70px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+nav span a{
+    color: #000;
+    text-decoration: none;
+}
+nav span a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/*Main Content*/
+.content, .column {
+  display: flex;
+}
+.content {
+  position: relative;
+  padding-top: 100px;
+  margin: 0 auto 70px auto;
+  width: 1300px;
+  justify-content: space-between;
+}
+.column {
+  flex-direction: column;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+/*Image Stories*/
+.image-story {
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+.image-story span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.lead-story .image-story {
+  background-image: url(../img/img-story-main.png);
+}
+.lead-story .image-story span {
+  font-size: 40px;
+  text-align: left;
+}
+.image-story.fall {
+  background-image: url(../img/img-story-1.png);
+}
+.image-story.cameras {
+  background-image: url(../img/img-story-2.png);
+}
+.image-story.cats {
+  background-image: url(../img/img-story-3.png);
+}
+
+
+/*News Stories*/
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.stories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lead-story {
+  width: 630px;
+}
+.news-bites {
+  width: 240px;
+}
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.news-bites span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 15px 20px;
+  border-bottom: 1px solid #000;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 300px;
+}
+footer .title {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid white;
+  padding-right: 50px;
+}
+footer nav {
+  display: inline-block;
+  padding-right: 0;
+}

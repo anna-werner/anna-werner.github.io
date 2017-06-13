@@ -52,7 +52,7 @@ nav span a:hover {
 }
 .content {
   position: relative;
-  padding-top: 100px;
+  padding-top: 120px;
   margin: 0 auto 70px auto;
   width: 1300px;
   justify-content: space-between;
@@ -116,6 +116,13 @@ nav span a:hover {
   flex-direction: row;
   justify-content: space-between;
 }
+.stories h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+}
 .lead-story {
   width: 630px;
 }
@@ -135,6 +142,9 @@ nav span a:hover {
   color: DimGray;
   padding: 15px 20px;
   border-bottom: 1px solid #000;
+}
+.news-bites span:last-child {
+  border: none;
 }
 
 /*Footer*/

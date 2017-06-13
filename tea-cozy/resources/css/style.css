@@ -1,0 +1,139 @@
+/*Overall Settings*/
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: seashell;
+  font-weight: lighter;
+  background-color: black;
+  opacity: 0.9;
+}
+.main {
+  position: relative;
+  top: 95px;
+}
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+}
+h5 {
+  margin-top: 10px;
+}
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  border-bottom: 0.5px solid white;
+  padding: 20px;
+  z-index: 10;
+  background-color: black;
+}
+.logo img {
+  max-height: 50px;
+  padding-left: 50px;
+}
+nav {
+  padding-right: 50px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 10px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/*Mission*/
+#mission {
+  background-image: url(../img/img-mission-background.jpg);
+  height: 650px;
+}
+#mission .content {
+  background-color: black;
+}
+
+/*Featured*/
+#featured {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1000px;
+}
+.product {
+  margin: 5px;
+}
+.product img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+.products span {
+  display: block;
+  padding: 5px;
+}
+
+/*Loactions*/
+#locations {
+  background-image: url(../img/img-locations-background.jpg);
+  height: 650px;
+}
+.location-list {
+  display: flex;
+  justify-content: center;
+}
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+  opacity: 1;
+  padding: 30px 0;
+}
+.location p {
+  line-height: 2em;
+}
+
+/*Contact*/
+.contact {
+  margin-top: 50px;
+  text-align: center;
+  height: 200px;
+}
+
+/*Footer*/
+footer {
+  padding-left: 20px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.copyright {
+  display: inline-block;
+}
+.notes {
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+  color: grey;
+}

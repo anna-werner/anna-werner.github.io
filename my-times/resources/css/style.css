@@ -60,11 +60,9 @@ nav span a:hover {
 .column.large {
   width: 630px;
 }
-
 .column.medium {
   width: 300px;
 }
-
 .column.small {
   width: 240px;
 }
@@ -99,7 +97,6 @@ nav span a:hover {
 .image-story.cats {
   background-image: url(../img/img-story-3.png);
 }
-
 
 /*News Stories*/
 .story {

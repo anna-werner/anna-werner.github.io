@@ -52,7 +52,7 @@ a {
   align-items: center;
   position: fixed;
   background-color: orange;
-  width: 150px;
+  width: 130px;
   height: 70px;
   z-index: 20;
 }
@@ -82,7 +82,6 @@ a {
   padding-right: 10%;
   border-bottom: 1px solid white;
   max-width: 100%;
-  padding-right: 10em;
 }
 nav {
   display: flex;
@@ -90,6 +89,8 @@ nav {
 nav ul span {
     margin: 0 2em;
     color: white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
   }
 
 .banner-box {

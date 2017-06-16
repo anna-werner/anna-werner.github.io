@@ -1,17 +1,17 @@
 /*Global Styling*/
+html {
+  font-size: 18px;
+}
 body {
   font-family: Helvetica, sans-serif;
-  font-weight: lighter;
-  font-size: 14px;
 }
 
 h2 {
   font-size: 2rem;
-  font-weight: normal;
-  line-height: 1.5;
+  font-weight: bold;
 }
 .container {
-  max-width: 1000px;
+  max-width: 960px;
   margin-left: 15%;
   margin-right: 15%;
   display: flex;
@@ -23,32 +23,38 @@ h2 {
   background-color: #000;
   display: flex;
   align-items: center;
-  height: 70px;
 }
 .topbar .logo {
-  height: 30px;
-  padding-right: 10px;
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem
 }
 .topbar span {
   color: #fff;
+  padding: 0.66rem 0;
+  font-size: 1rem;
 }
 .banner {
   background-image: url(../img/moto.jpeg);
   background-size: cover;
-  height: 500px;
+  height: 25rem;
   display: flex;
-  align-items: center;
 }
 .banner-content {
-  background-color: #000;
-  color: #fff;
-  width: 35%;
+  margin-top: 9rem;
 }
 .banner-content-text {
-  padding: 30px;
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: #000;
+  color: #fff;
+}
+.banner-content-text span {
+  font-size: 1rem;
+  font-weight: bold;
 }
 .banner-content-text h2 {
-  padding-top: 20px;
+  padding-top: 0.25rem;
 }
 nav {
   background-color: firebrick;
@@ -59,7 +65,10 @@ nav .container {
   justify-content: space-between;
 }
 nav span {
-  padding: 1rem 0;
+  padding: 0.75rem 0;
+}
+.mobilemenu {
+  display: none;
 }
 
 /*Main Content*/
@@ -71,9 +80,8 @@ nav span {
   padding: 3rem 0;
 }
 .single-product {
-  height: 300px;
   width: 30%;
-  border: 3px solid black;
+  border: 4px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,8 +91,9 @@ nav span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 300px;
+  width: auto;
+  height: 9rem;
+  padding: 2rem 0;
 }
  .single-product img {
    width: 150px;
@@ -94,13 +103,9 @@ nav span {
    background-color: black;
    color: white;
    width: 100%;
-   height: 50px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
- }
- .product-title span {
-   font-size:
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   text-align: center;
  }
 
  /*Info Part*/
@@ -109,8 +114,8 @@ nav span {
  }
  .info-part .btn {
    background-color: black;
-   padding: 15px;
-   width: 200px;
+   padding: 1rem 2rem;;
+   width: 50%;
    color: white;
  }
 .info-part p {
@@ -120,9 +125,34 @@ nav span {
 /*Footer*/
 footer {
   background-color: black;
-  margin-top: 5rem;
-  padding: 3rem 0;
+  margin-top: 4rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
 }
 footer p {
   color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 0;
+  }
+  .mobilemenu {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem 0;
+  }
+  a.mobilemenu {
+    color: white;
+    text-decoration: none;
+  }
+  nav ul.container, nav:active ul {
+		display: none;
+  }
+
+  .single-product {
+    width: 47%;
+  }
 }

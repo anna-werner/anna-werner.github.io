@@ -100,7 +100,7 @@ nav ul span {
   padding: 2rem;
 }
 
-.site-name {
+.name {
   display: flex;
   flex-direction: column;
   width: auto;
@@ -197,6 +197,11 @@ footer p {
 }
 
 /*Single Post*/
+.post-title h2 {
+  color: orange;
+  padding-top: 0;
+  font-size: 3rem;
+}
 .post.container {
   width: 50%;
   display: flex;
@@ -208,4 +213,15 @@ footer p {
 .info-box {
   border-left: 1px solid grey;
   padding-left: 1rem;
+}
+.post-picture {
+  width: 130%;
+  margin: 1.5rem 0;
+}
+.caption {
+  display: block;
+  float: right;
+  margin: 0 -10rem 0 0;
+  text-align: right;
+  color: grey;
 }

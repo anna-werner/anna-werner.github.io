@@ -1,0 +1,136 @@
+
+/*Sidewide settings*/
+html {
+  font-size: 16px;
+  max-width: 1057px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #3E3E3E;
+}
+
+h1 {}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+p {
+  font-size: 0.85rem;
+  line-height: 1rem;
+}
+.subtitle {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.author {
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+.container {
+  padding: 32px 24px 32px 24px;
+  display: flex;
+}
+.container:nth-child(2) {
+  background-color: #C6C6C6;
+}
+.container:nth-child(2n+4) {
+  background-color: #d7d7d7;
+}
+
+.btn {
+  text-align: center;
+  color: white;
+  background-color: #3E3E3E;
+  margin: 2em auto;
+  padding: 8px;
+  width: auto;
+}
+.firstcl {
+  width: 60%;
+  margin-right: 24px;
+}
+.firstcl img {
+  width: 100%;
+}
+
+/*Header and Navigation Styling*/
+
+header.container {
+  height: 64px;
+  padding-top: 0;
+  padding-bottom: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.colmar {
+  color: #3E3E3E;
+  font-weight: bold;
+}
+.academy {
+  color: #C6C6C6;
+}
+nav ul span {
+  padding: 0 0.5rem;
+}
+
+/*Introduction*/
+
+.introduction {
+  align-items: center;
+}
+.greeting {
+  width: 30%;
+  margin-left: 16px;
+}
+
+/*Articles*/
+.feature img {
+  margin-bottom: 32px;
+}
+.information {
+  border-left: 2px solid #d7d7d7;
+  width: 423px;
+}
+.info-box {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+.info-box:nth-child(3){
+  background-color: #d7d7d7;
+}
+.info-box img {
+  width: 35%;
+  margin-right: 16px;
+}
+.info-box.orientation {
+  padding-top: 0px;
+  border-bottom: 2px solid #d7d7d7;
+}
+.info-box .campus {
+  border-top: 2px solid #d7d7d7;
+}
+.readmore {
+  color: #49A1D9;
+  padding-top: 0.5rem;
+}
+
+/*Courses*/
+.courses h2{
+  width: 100%;
+  text-align: center;
+}

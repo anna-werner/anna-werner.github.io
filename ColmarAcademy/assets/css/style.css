@@ -46,6 +46,14 @@ p {
 .container:nth-child(2n+4) {
   background-color: #d7d7d7;
 }
+.container:last-child {
+  background-color: #fff;
+  border-top: 1px solid #d7d7d7;
+}
+h2.headline {
+  width: 100%;
+  text-align: center;
+}
 
 .btn {
   text-align: center;
@@ -59,7 +67,7 @@ p {
   width: 60%;
   margin-right: 24px;
 }
-.firstcl img {
+.firstcl img, .firstcl video  {
   width: 100%;
 }
 
@@ -98,11 +106,18 @@ nav ul span {
 }
 
 /*Articles*/
+.container.information-main {
+  padding: 0;
+}
+.information-main .feature {
+  margin: 32px 24px;
+}
 .feature img {
   margin-bottom: 32px;
 }
 .information {
   border-left: 2px solid #d7d7d7;
+  padding-top: 32px;
   width: 423px;
 }
 .info-box {
@@ -130,7 +145,61 @@ nav ul span {
 }
 
 /*Courses*/
-.courses h2{
+.container.courses {
+  flex-direction: column;
+}
+.courses-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   width: 100%;
-  text-align: center;
+  padding-top: 8px;
+}
+.course {
+  margin: 0 16px;
+  /*width: 25%;*/
+  background-color: #fff;
+}
+.course-meta {
+  height: 220px;
+}
+.course-meta img {
+  height: 60%;
+}
+.course h3 {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+.course p {
+  padding-left: 16px;
+}
+.category {
+  padding: 8px 0;
+}
+.course-content {
+  padding-bottom: 32px;
+}
+
+
+/* Ehibit*/
+.container.exhibit {
+  flex-direction: column;
+}
+.exhibit video {
+  margin-bottom: 32px;
+}
+.exhibit .information {
+  border: none;
+  padding-top: 0px;
+}
+.fisma {
+  background-color: #d7d7d7;
+}
+
+/*FOOTER */
+footer.container {
+  justify-content: space-between;
+}
+footer {
+  font-size: 0.8rem;
 }

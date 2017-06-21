@@ -9,26 +9,45 @@
   </head>
   <body>
 
-    <header class="container">
-      <div class="logo">
-        <img src="assets/images/ic-logo.svg" alt="Colmar Academy">
-        <span class="colmar">COLMAR</span><span class="academy">ACADEMY</span>
+    <header>
+      <div class="container full">
+        <div class="logo">
+          <img src="assets/images/ic-logo.svg" alt="Colmar Academy">
+          <span class="colmar">COLMAR</span><span class="academy">ACADEMY</span>
+        </div>
+        <div class="nav full">
+          <nav>
+            <ul>
+              <span>On campus</span>
+              <span>Online</span>
+              <span>For companies</span>
+              <span>Sign In</span>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="nav">
-        <nav>
-          <ul>
-            <span>On campus</span>
-            <span>Online</span>
-            <span>For companies</span>
-            <span>Sign In</span>
-          </ul>
-        </nav>
+      <div class="mobile">
+        <div class="logo">
+          <img src="assets/images/ic-logo.svg" alt="Colmar Academy">
+        </div>
+        <div class="oncampus">
+          <img src="assets/images/ic-on-campus.svg">
+        </div>
+        <div class="online">
+          <img src="assets/images/ic-online.svg">
+        </div>
+        <div class="login">
+          <img src="assets/images/ic-login.svg">
+        </div>
       </div>
     </header>
 
+    <div class="insert mobile">
+    </div>
+
     <!--Intorduction-->
     <div class="container introduction">
-      <div class="img firstcl">
+      <div class="img firstcl full">
         <img src="assets/images/banner.jpg" alt="">
       </div>
       <div class="greeting">
@@ -42,7 +61,7 @@
 
     <!--Main Information-->
     <div class="container information-main">
-      <div class="feature firstcl">
+      <div class="feature firstcl full">
         <img src="assets/images/information-main.jpg" alt="">
         <h2>It doesn't hurt to keep practicing</h2>
         <p>"Curabitur tempus efficitur nisl, non volutpat purus pharetra consequat. Aliquam dignissim posuere odio, vel mattis nunc auctor ultricies. Quisque iaculis diam eu libero sodales, eget blandit nulla ultrices. Donec faucibus efficitur aliquam."</p>
@@ -50,7 +69,8 @@
       </div>
       <div class="information">
         <div class="info-box orientation">
-          <img src="assets/images/information-orientation.jpg" alt="">
+          <img src="assets/images/information-orientation.jpg" class="full">
+          <img src="assets/images/information-orientation-mobile.jpg" class="mobile">
           <div class="info-text">
             <h3>Orientation date</h3>
             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -58,7 +78,8 @@
           </div>
         </div>
         <div class="info-box campus">
-          <img src="assets/images/information-campus.jpg" alt="">
+          <img src="assets/images/information-campus.jpg" class="full">
+          <img src="assets/images/information-campus-mobile.jpg" class="mobile">
           <div class="info-text">
             <h3>Our campus</h3>
             <p>Find which compus is close by you</p>
@@ -66,7 +87,8 @@
           </div>
         </div>
         <div class="info-box guest-lecture">
-          <img src="assets/images/information-guest-lecture.jpg" alt="">
+          <img src="assets/images/information-guest-lecture.jpg" class="full">
+          <img src="assets/images/information-guest-lecture-mobile.jpg" class="mobile">
           <div class="info-text">
             <h3>Our guest lecture</h3>
             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -82,53 +104,51 @@
       <div class="courses-box">
         <div class="course">
           <div class="course-meta">
-            <img src="assets/images/course-software.jpg" alt="Software Class">
+            <img src="assets/images/course-software.jpg" class="full">
             <h3>Software engeneering</h3>
-            <p class="category">COURSES</p>
+            <p class="category full">COURSES</p>
           </div>
-          <p class="course-content">Web Development, Mobile <br />Development, iOT, APIs</p>
+          <p class="course-content full">Web Development, Mobile <br />Development, iOT, APIs</p>
         </div>
         <div class="course">
           <div class="course-meta">
-            <img src="assets/images/course-computer-art.jpg" alt="Software Class">
+            <img src="assets/images/course-computer-art.jpg" class="full">
             <h3>Computer art</h3>
-            <p class="category">COURSES</p>
+            <p class="category full">COURSES</p>
           </div>
-          <p class="course-content">Imaging & Design, Web Desgin,<br /> Motion Graphics & Visual Effects,<br />Coomputer Animation</p>
+          <p class="course-content full">Imaging & Design, Web Desgin,<br /> Motion Graphics & Visual Effects,<br />Coomputer Animation</p>
         </div>
         <div class="course">
           <div class="course-meta">
-            <img src="assets/images/course-design.jpg" alt="Software Class">
+            <img src="assets/images/course-design.jpg" class="full">
             <h3>Design</h3>
-            <p class="category">COURSES</p>
+            <p class="category full">COURSES</p>
           </div>
-          <p class="course-content">User Experience Design, User<br />Research, Visual Design</p>
+          <p class="course-content full">User Experience Design, User<br />Research, Visual Design</p>
         </div>
-      </div>
-      <div class="courses-box">
         <div class="course">
           <div class="course-meta">
-            <img src="assets/images/course-data.jpg" alt="Software Class">
+            <img src="assets/images/course-data.jpg" class="full">
             <h3>Data</h3>
-            <p class="category">COURSES</p>
+            <p class="category full">COURSES</p>
           </div>
-          <p class="course-content">Data Science, Big Data, SQL, Data<br />Visualization</p>
+          <p class="course-content full">Data Science, Big Data, SQL, Data<br />Visualization</p>
         </div>
         <div class="course">
           <div class="course-meta">
-            <img src="assets/images/course-business.jpg" alt="Software Class">
+            <img src="assets/images/course-business.jpg" class="full">
             <h3>Business</h3>
-            <p class="category">COURSES</p>
+            <p class="category full">COURSES</p>
           </div>
-          <p class="course-content">Product Development, Business<br />Development, Startup</p>
+          <p class="course-content full">Product Development, Business<br />Development, Startup</p>
         </div>
         <div class="course">
           <div class="course-meta">
-            <img src="assets/images/course-marketing.jpg" alt="Software Class">
+            <img src="assets/images/course-marketing.jpg" class="full">
             <h3>Marketing</h3>
-            <p class="category">COURSES</p>
+            <p class="category full">COURSES</p>
           </div>
-          <p class="course-content">Analytics, Content Marketing,<br />Mobile Marketing</p>
+          <p class="course-content full">Analytics, Content Marketing,<br />Mobile Marketing</p>
         </div>
       </div>
     </div>
@@ -136,14 +156,14 @@
     <!--Exhibit-->
     <div class="container exhibit">
       <h2 class="headline">Thesis exhbit</h2>
-      <div class="courses-box">
+      <div class="exhibit-box">
         <div class="video-ex firstcl">
           <video src="assets/videos/thesis.mp4" autoplay-off controls>
           </video>
-          <h2>Reimagine urban</h2>
-          <p>"Curabitur tempus efficitur nisl, non volutpat purus pharetra consequat. Aliquam dignissim posuere odio, vel mattis nunc auctor ultricies. Quisque iaculis diam eu libero sodales, eget blandit nulla ultrices. Donec faucibus efficitur aliquam."</p>
+          <h2 class="full">Reimagine urban</h2>
+          <p class="full">"Curabitur tempus efficitur nisl, non volutpat purus pharetra consequat. Aliquam dignissim posuere odio, vel mattis nunc auctor ultricies. Quisque iaculis diam eu libero sodales, eget blandit nulla ultrices. Donec faucibus efficitur aliquam."</p>
         </div>
-        <div class="information">
+        <div class="information full">
           <div class="info-box fisma">
             <img src="assets/images/thesis-fisma.jpg" alt="">
             <div class="info-text">
@@ -166,7 +186,7 @@
 
     <footer class="container">
       <span>© 2016 Colmar Academy. All rights reserved.</span>
-      <div class="nav">
+      <div class="nav full">
         <nav>
           <ul>
             <span>Terms</span>

@@ -44,7 +44,6 @@ img {
 
 /*Jumbotron*/
 .jumbotron {
-  background-image: url(../img/jumbotron-bike.jpg);
   height: 44rem;
   padding-top: 10rem;
   text-align: center;
@@ -52,6 +51,22 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
+}
+
+.jumbotron-bike {
+  background-image: url(../img/jumbotron-bike.jpg);
+}
+
+.jumbotron-beer {
+  background-image: url(../img/jumbotron-beer.jpg);
+}
+
+.jumbotron-duffel {
+  background-image: url(../img/jumbotron-duffel.jpg);
+}
+
+.jumbotron-flowers {
+  background-image: url(../img/jumbotron-flowers.jpg);
 }
 
 .jumbotron h1 {

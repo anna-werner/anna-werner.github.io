@@ -76,7 +76,23 @@ img {
 
 /*Images*/
 .image-container {
+  overflow: hidden;
+}
 
+.image-container img {
+  opacity: 0.7;
+  -webkit-transition: transform 0.5s, opacity 0.5s;
+  -ms-transition: transform 0.5s, opacity 0.5s;
+  -moz-transition: transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 /*Featured Project*/
@@ -96,10 +112,6 @@ img {
 /*Projects*/
 .projects {
   padding-bottom: 5.85rem;
-}
-
-.projects .image-container img {
-  opacity: 0.6;
 }
 
 /*Having Trouble*/

@@ -11,16 +11,15 @@ $(document).ready(function(){
   });
 
   //Hide Navigation on Scroll
-  var previousScroll = 0,
-    headerOrgOffset = $('.nav').height();
+  var previousScroll = 0;
 
   $(window).scroll(function () {
       var currentScroll = $(this).scrollTop();
-      if (currentScroll  - lastScrollTop > 50) {
+      if (currentScroll  - previousScroll > 50) {
         var navHeight = $('.navbar').css('height');
         $('.navbar').animate({top: '-' + navHeight}, 150);
-          lastScrollTop = currentScroll;
-        } else if (lastScrollTop - currentScroll > 50) {
+          previousScroll = currentScroll;
+        } else if (previousScroll - currentScroll > 50) {
           $('.navbar').animate({top: '0px'}, 150);
         }
       previousScroll = currentScroll;

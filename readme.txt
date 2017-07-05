@@ -27,7 +27,7 @@ First drafts
 https://anna-werner.github.io/fromA2C/
 
 
->>>imple jQuery/JS Integration<<<
+>>>jQuery/JS Integration<<<
 
 A jQuery Match Game
 https://anna-werner.github.io/match-game/

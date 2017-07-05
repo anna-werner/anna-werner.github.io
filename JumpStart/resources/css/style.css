@@ -65,7 +65,7 @@ img {
   margin: 0 auto;
   font-size: 21px;
   font-weight: 200;
-  width: 51.3rem;
+  max-width: 51.3rem;
 }
 
 @media screen and (max-width: 550px) {
@@ -115,6 +115,6 @@ img {
 }
 
 .trouble p {
-  width: 42rem;
+  max-width: 42rem;
   margin: 0 auto;
 }

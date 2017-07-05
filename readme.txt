@@ -32,3 +32,6 @@ https://anna-werner.github.io/fromA2C/
 A jQuery Match Game
 https://anna-werner.github.io/match-game/
 
+JS Slider and Scroll Effect plus CSS effects
+https://anna-werner.github.io/JumpStart/
+
